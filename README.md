@@ -24,4 +24,12 @@ If you want to run it yourself, run the following commands:
 
 Explanation:
 
-I wanted to make the code as gross as possible and put it behind several layers. The Python code just compiles and runs some assembly code to read a CSV into another assembly file. Then, the second assembly file is run and it outputs a giant circle onto the console. The output is random characters as the border because it's funny or something. If you have a small screen the circle might not look as cool but I will attach a screenshot of the output on my monitor.
+I wanted to make the code as gross as possible and put it behind several layers of obfuscation. 
+
+First, we have the Python code. The Python code is gross enough and takes quite a while to learn what it does (especially because it uses some weird libraries). The TLDR is that the Python code really just compiles and runs a piece of assembly code. This then means we have to read the assembly code to see what is done.
+
+The first piece of assembly code. The Assembly code is very simple! It is really like a 60-line piece of C code that just reads in a CSV and writes it to a different file (changing all of the 7-bit numbers into characters). After it does this, it outputs a piece of assembly code that was just reassembled from the CSV. 
+
+The second piece of assembly code. This code is something like 100 lines in C, which really isn't that terrible. However, with optimization on the compilation, I have no idea how to look at this piece of assembly code. It is a 500-and-something line block of gibberish. This code basically outputs the entire circle. I thought about writing some code to delete system32 like 1/6 times or something but that was a little too mean for my taste. 
+
+It might not be the single worst piece of code, but it is the single grossest thing ever from a practical user standpoint. If you were provided this Python file randomly and told to run it, you would have to check 3 different files (all of which I would have no idea what to do) just to see if it is going to do something malicious. That is my definition of gross code!
