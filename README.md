@@ -24,4 +24,4 @@ If you want to run it yourself, run the following commands:
 
 Explanation:
 
-I wanted to make the code as gross as possible so the Python code needs to be read to figure out what is going on. The Python code just compiles and runs some assembly code to read a CSV into another assembly file. Then, the second assembly file is run and it outputs a giant circle onto the console. The output is random characters as the border because it's funny or something. If you have a small screen the circle might not look as cool but I will attach a screenshot of the output on my monitor.
+I wanted to make the code as gross as possible and put it behind several layers. The Python code just compiles and runs some assembly code to read a CSV into another assembly file. Then, the second assembly file is run and it outputs a giant circle onto the console. The output is random characters as the border because it's funny or something. If you have a small screen the circle might not look as cool but I will attach a screenshot of the output on my monitor.
